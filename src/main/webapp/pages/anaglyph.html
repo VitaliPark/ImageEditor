@@ -1,0 +1,41 @@
+<div>
+    <h2>Anaglyph</h2>
+
+    <h2>{{anaglyph.message}}</h2>
+
+    <!--<div flow-init="{singleFile:true}"-->
+         <!--flow-files-submitted="$flow.upload()"-->
+         <!--flow-file-success="$file.msg = $message"-->
+         <!--flow-name="left.flow"-->
+            <!--file-submitted="">-->
+
+        <!--<span class="btn" flow-btn>Upload File</span>-->
+
+        <!--<div ng-repeat="file in $flow.files">-->
+            <!--<img flow-img="$flow.files[0]"/>-->
+        <!--</div>-->
+
+
+    <!--</div>-->
+
+    <!--<div flow-init="{singleFile:true}"-->
+         <!--flow-files-submitted="$flow.upload()"-->
+         <!--flow-file-success="$file.msg = $message"-->
+         <!--flow-name="right.flow">-->
+
+        <!--<span class="btn" flow-btn>Upload File</span>-->
+
+        <!--<div ng-repeat="file in $flow.files">-->
+            <!--<img flow-img="$flow.files[0]"/>-->
+        <!--</div>-->
+
+        <!--<span class="btn" ng-click="createAnaglyph()">Create anaglyph</span>-->
+    <!--</div>-->
+
+    <input type="file" file-model="leftImage"/>
+    <input type="file" file-model="rightImage"/>
+    <button ng-click="uploadFile()">upload me</button>
+
+</div>
+
+
