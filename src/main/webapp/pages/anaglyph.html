@@ -34,6 +34,9 @@
 
     <input type="file" file-model="leftImage"/>
     <input type="file" file-model="rightImage"/>
+
+    <img image-bind="leftImage"/>
+    <img image-bind="rightImage"/>
     <button ng-click="uploadFile()">upload me</button>
 
 </div>
